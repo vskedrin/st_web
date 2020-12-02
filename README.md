@@ -1,6 +1,8 @@
 1. Setup Nginx
 ```bash
 
+mv
+
 sudo apt-get update
 
 sudo apt-get install mysql-server-5.6
@@ -19,6 +21,9 @@ sudo pip3 install --upgrade django==2.1
 
 sudo pip3 install --upgrade gunicorn==19.5
 
+sudo pip3 install mysqlclient
+
+chmod -R 775 .
 ```
 2. Install sqlite3
 
